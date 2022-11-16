@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:razorpay_flutter_customui/razorpay_flutter_customui.dart';
 import 'package:razorpay_flutter_customui_example/models/card_info_model.dart';
@@ -555,17 +554,17 @@ class _PaymentSelectionPageState extends State<PaymentSelectionPage> {
                       final paymentMethods = await _razorpay.getPaymentMethods();
                       print('Payment Methods Retrievend: $paymentMethods'); */
 
-                      var options = {
-                        'key': key,
-                        'amount': 100,
-                        'currency': 'INR',
-                        'email': 'ramprasad179@gmail.com',
-                        'app_present': 0,
-                        'contact': '9663976539',
-                        'method': 'app',
-                        'provider': 'cred',
-                        // 'callback_url': 'flutterCustomUI://'
-                      };
+                      // var options = {
+                      //   'key': key,
+                      //   'amount': 100,
+                      //   'currency': 'INR',
+                      //   'email': 'ramprasad179@gmail.com',
+                      //   'app_present': 0,
+                      //   'contact': '9663976539',
+                      //   'method': 'app',
+                      //   'provider': 'cred',
+                      //   // 'callback_url': 'flutterCustomUI://'
+                      // };
                       // _razorpay.submit(options);
                       // String logo = await _razorpay.getBankLogoUrl("UTIB");
                       // print(logo);

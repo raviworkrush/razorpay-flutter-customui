@@ -31,7 +31,8 @@ class RazorpayFlutterCustomuiWeb {
       default:
         throw PlatformException(
           code: 'Unimplemented',
-          details: 'razorpay_flutter_customui for web doesn\'t implement \'${call.method}\'',
+          details:
+              'razorpay_flutter_customui for web doesn\'t implement \'${call.method}\'',
         );
     }
   }
